@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_SD_TOOLKIT</CLSNAME>
+    <LANGU>T</LANGU>
+    <DESCRIPT>Yurtbay SD Toolkit</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_SD_TOOLKIT</CLSNAME>
+     <CMPNAME>BILGI_GOSTER</CMPNAME>
+     <LANGU>T</LANGU>
+     <DESCRIPT>İşleme devam eder</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_SD_TOOLKIT</CLSNAME>
+     <CMPNAME>CHECK_VBELN_VA</CMPNAME>
+     <LANGU>T</LANGU>
+     <DESCRIPT>ENQUEUE_READ_AKKP içinde</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_SD_TOOLKIT</CLSNAME>
+     <CMPNAME>CV_ATINN_EBAT</CMPNAME>
+     <LANGU>T</LANGU>
+     <DESCRIPT>Dahili karakteristik</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_SD_TOOLKIT</CLSNAME>
+     <CMPNAME>CV_ATINN_SERI</CMPNAME>
+     <LANGU>T</LANGU>
+     <DESCRIPT>Dahili karakteristik</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_SD_TOOLKIT</CLSNAME>
+     <CMPNAME>CV_MALIBELGE</CMPNAME>
+     <LANGU>T</LANGU>
+     <DESCRIPT>Açıklama</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_SD_TOOLKIT</CLSNAME>
+     <CMPNAME>C_MSGTY_E</CMPNAME>
+     <LANGU>T</LANGU>
+     <DESCRIPT>İleti tipi</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_SD_TOOLKIT</CLSNAME>
+     <CMPNAME>C_MSGTY_S</CMPNAME>
+     <LANGU>T</LANGU>
+     <DESCRIPT>İleti tipi</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_SD_TOOLKIT</CLSNAME>
+     <CMPNAME>C_OPTION_EQ</CMPNAME>
+     <LANGU>T</LANGU>
+     <DESCRIPT>Type of OPTION component in row type of a Ranges type</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_SD_TOOLKIT</CLSNAME>
+     <CMPNAME>C_SIGN_E</CMPNAME>
+     <LANGU>T</LANGU>
+     <DESCRIPT>Type of SIGN component in row type of a Ranges type</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_SD_TOOLKIT</CLSNAME>
+     <CMPNAME>C_SIGN_I</CMPNAME>
+     <LANGU>T</LANGU>
+     <DESCRIPT>Type of SIGN component in row type of a Ranges type</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_SD_TOOLKIT</CLSNAME>
+     <CMPNAME>ENQUEUE_READ_AKKP</CMPNAME>
+     <LANGU>T</LANGU>
+     <DESCRIPT>Mali Belge Lock Table OKuma İşlemi</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_SD_TOOLKIT</CLSNAME>
+     <CMPNAME>GET_MAKTX</CMPNAME>
+     <LANGU>T</LANGU>
+     <DESCRIPT>Malzeme Tanımı Doldurma</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_SD_TOOLKIT</CLSNAME>
+     <CMPNAME>GET_MTART</CMPNAME>
+     <LANGU>T</LANGU>
+     <DESCRIPT>Malzeme Türü Bilgilerinin Çekilmesi</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_SD_TOOLKIT</CLSNAME>
+     <CMPNAME>HATA_GOSTER</CMPNAME>
+     <LANGU>T</LANGU>
+     <DESCRIPT>&quot;Belgede Hata&quot; mesajı ile işlemi keser</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_SD_TOOLKIT</CLSNAME>
+     <CMPNAME>NAST_PROTOCOL_UPDATE</CMPNAME>
+     <LANGU>T</LANGU>
+     <DESCRIPT>NAST_PROTOCOL_UPDATE</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_SD_TOOLKIT</CLSNAME>
+     <CMPNAME>VBELN_VL_VALID</CMPNAME>
+     <LANGU>T</LANGU>
+     <DESCRIPT>Siparişin Teslimatı Var mı?</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

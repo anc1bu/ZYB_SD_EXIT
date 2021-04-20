@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>Fatura İçin Function Group</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZYB_SD_G_VFF01</SOBJ_NAME>
+    <SOBJ_NAME>LZYB_SD_G_VFTOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZYB_SD_G_VF</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>ZYBSD_F_BIL_PROC</FUNCNAME>
+     <REMOTE_CALL>R</REMOTE_CALL>
+     <SHORT_TEXT>Fatura Belgesi Türetme &amp; İptal Etme</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>I_VBELN</PARAMETER>
+       <TYP>VBELN</TYP>
+      </RSIMP>
+     </IMPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>I_VBELN</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>SD belgesi numarası</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

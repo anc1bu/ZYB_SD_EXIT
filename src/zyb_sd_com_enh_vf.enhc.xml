@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_ENHC" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <SHORTTEXT>Fatura İle ilgili Enhancement &apos; lar</SHORTTEXT>
+   <ENH_CHILDS>
+    <ENHNAME>ZYB_SD_ENH_EXCHANGE_RATE_TYPE</ENHNAME>
+    <ENHNAME>ZYB_SD_ENH_FILL_VBRK_VBRP</ENHNAME>
+    <ENHNAME>ZYB_SD_ENH_FILL_XKOMK1</ENHNAME>
+    <ENHNAME>ZYB_SD_ENH_KOMKBV3_FILL</ENHNAME>
+    <ENHNAME>ZYB_SD_ENH_RVIVAUFT_FKART</ENHNAME>
+    <ENHNAME>ZYB_SD_ENH_TEXT</ENHNAME>
+    <ENHNAME>ZYB_SD_INVENCH</ENHNAME>
+   </ENH_CHILDS>
+   <SOTR>
+    <item>
+     <HEADER>
+      <CONCEPT>005056AF698E1ED5849B6508E533B410</CONCEPT>
+      <CREA_LAN>T</CREA_LAN>
+      <TRALA_TYPE>1</TRALA_TYPE>
+      <OBJID_VEC>AACA</OBJID_VEC>
+     </HEADER>
+     <ENTRIES>
+      <SOTR_TEXT>
+       <CONCEPT>005056AF698E1ED5849B6508E533B410</CONCEPT>
+       <LANGU>T</LANGU>
+       <LFD_NUM>0001</LFD_NUM>
+       <FLAG_CNTXT>X</FLAG_CNTXT>
+       <STATUS>R</STATUS>
+       <LENGTH>053</LENGTH>
+       <TEXT>Fatura İle ilgili Enhancement &apos; lar</TEXT>
+      </SOTR_TEXT>
+     </ENTRIES>
+    </item>
+   </SOTR>
+   <SOTR_USE>
+    <SOTR_USE>
+     <PGMID>R3TR</PGMID>
+     <OBJECT>ENHC</OBJECT>
+     <OBJ_NAME>ZYB_SD_COM_ENH_VF</OBJ_NAME>
+     <CONCEPT>005056AF698E1ED5849B6508E533B410</CONCEPT>
+     <LFD_NUM>0001</LFD_NUM>
+    </SOTR_USE>
+   </SOTR_USE>
+  </asx:values>
+ </asx:abap>
+</abapGit>

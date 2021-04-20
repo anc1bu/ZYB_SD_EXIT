@@ -1,0 +1,407 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>ZSD_VA</ARBGB>
+    <MASTERLANG>T</MASTERLANG>
+    <STEXT>SD Belgeleri için mesaj sınıfı</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZSD_VA</ARBGB>
+     <MSGNR>000</MSGNR>
+     <TEXT>&amp; &amp; &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZSD_VA</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>&amp; nolu müşteri için &amp; nolu kampanya geçerli geçerli değil!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZSD_VA</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>Aynı sipariş içerisinde başka kalem mevcut Kalem No : &amp; ! &amp; .</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZSD_VA</ARBGB>
+     <MSGNR>003</MSGNR>
+     <TEXT>Önceden girilmiştahmin siparişi mevcut! O belgeye giriş yapınız. &amp; &amp; &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZSD_VA</ARBGB>
+     <MSGNR>004</MSGNR>
+     <TEXT>Sip No: &amp; Klm No: &amp; &amp; malzemesi için stok mevcut Ret nedeni koyulamaz!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZSD_VA</ARBGB>
+     <MSGNR>005</MSGNR>
+     <TEXT>&amp; nolu müşteri için geçerli kampanya bulunamadı!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZSD_VA</ARBGB>
+     <MSGNR>006</MSGNR>
+     <TEXT>Palet veya kutu tipini değiştirmeden önce miktarı siliniz.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZSD_VA</ARBGB>
+     <MSGNR>007</MSGNR>
+     <TEXT>Palet tipi sadece tam palet satışlarda seçilebilir!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZSD_VA</ARBGB>
+     <MSGNR>008</MSGNR>
+     <TEXT>&amp; müşteriye ait satıcı kodu bulunamadı. VD02 genel verilerden bakım ypnz.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZSD_VA</ARBGB>
+     <MSGNR>009</MSGNR>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZSD_VA</ARBGB>
+     <MSGNR>010</MSGNR>
+     <TEXT>Müşteri kayıt anahtarı değişmiştir. Lütfen SAP danışmanlarına hbr veriniz</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZSD_VA</ARBGB>
+     <MSGNR>011</MSGNR>
+     <TEXT>Mali belge onaylanamadı</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZSD_VA</ARBGB>
+     <MSGNR>012</MSGNR>
+     <TEXT>&amp; &amp; &amp; nolu kalemin &amp; malzemesine ait ölçü dönüşümleri hatalıdır.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZSD_VA</ARBGB>
+     <MSGNR>013</MSGNR>
+     <TEXT>İşlem Sonucu Hatalar Mevcut! Günlüğü Kontrol Ediniz!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZSD_VA</ARBGB>
+     <MSGNR>014</MSGNR>
+     <TEXT>Kutu tipi seçilemez !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZSD_VA</ARBGB>
+     <MSGNR>015</MSGNR>
+     <TEXT>Kutu Etiketi Seçilemez !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZSD_VA</ARBGB>
+     <MSGNR>016</MSGNR>
+     <TEXT>Karo Alt Bilgisi Seçilemez !.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZSD_VA</ARBGB>
+     <MSGNR>017</MSGNR>
+     <TEXT>Girilen miktar açılmış üretim siparişi miktarından az! Üretim Miktarı: &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZSD_VA</ARBGB>
+     <MSGNR>018</MSGNR>
+     <TEXT>&amp; nolu kaleme ait &amp; - &amp; malzemesinin  net fiyatı eksik !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZSD_VA</ARBGB>
+     <MSGNR>019</MSGNR>
+     <TEXT>&amp; nolu sip. &amp; nolu klm. &amp; malz. nin miktarı tam olarak teyitli değil!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZSD_VA</ARBGB>
+     <MSGNR>020</MSGNR>
+     <TEXT>&amp; nolu sip. &amp; nolu klm. &amp; için kredi limiti aşımı!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZSD_VA</ARBGB>
+     <MSGNR>021</MSGNR>
+     <TEXT>Fiyatlandırma uyarlaması hatalıdır!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZSD_VA</ARBGB>
+     <MSGNR>022</MSGNR>
+     <TEXT>&amp; kampanyasında fiyat listesi tanımlanmamıştır.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZSD_VA</ARBGB>
+     <MSGNR>023</MSGNR>
+     <TEXT>&amp; kampanya sistemde bulunmamaktadır.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZSD_VA</ARBGB>
+     <MSGNR>024</MSGNR>
+     <TEXT>&amp; malzemesi için birden fazla geçerli fiyat vardır!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZSD_VA</ARBGB>
+     <MSGNR>025</MSGNR>
+     <TEXT>&amp; malzemesi için fiyat bulunmamaktadır!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZSD_VA</ARBGB>
+     <MSGNR>026</MSGNR>
+     <TEXT>Depo girişi eksik! &amp; no&apos;lu kalem için depo yeri giriniz!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZSD_VA</ARBGB>
+     <MSGNR>027</MSGNR>
+     <TEXT>Sevkiyat türü eksik! Sevkiyat türü giriniz.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZSD_VA</ARBGB>
+     <MSGNR>028</MSGNR>
+     <TEXT>Bodür/Dekor ürünleri için sipariş türü ZA08 olmalıdır.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZSD_VA</ARBGB>
+     <MSGNR>029</MSGNR>
+     <TEXT>&amp; nolu kaleme ait rota belirlenemedi! &amp; Nakliye bölgesi bakımını yapınız!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZSD_VA</ARBGB>
+     <MSGNR>030</MSGNR>
+     <TEXT>Mali belgenin müşterisi ile sipariş veren farklı! Mali Belge: &amp; &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZSD_VA</ARBGB>
+     <MSGNR>031</MSGNR>
+     <TEXT>&amp; nolu mali belge &amp; kullanıcısı tarafından işleniyor.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZSD_VA</ARBGB>
+     <MSGNR>032</MSGNR>
+     <TEXT>&amp; depo yerinden sipariş açılamaz!  ( Kalem No: &amp; Malzeme: &amp; )</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZSD_VA</ARBGB>
+     <MSGNR>033</MSGNR>
+     <TEXT>&amp; nolu kalemin &amp; nolu malzemesinde depo yeri eksik depo yeri girin!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZSD_VA</ARBGB>
+     <MSGNR>034</MSGNR>
+     <TEXT>&amp; nolu siparişin &amp; nolu kalemi &amp; yükleme numarasında mevcut. Silinemez!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZSD_VA</ARBGB>
+     <MSGNR>035</MSGNR>
+     <TEXT>&amp; nolu siparişin &amp; nolu klm ait yükleme miktarı: &amp; . Miktar azaltılamaz!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZSD_VA</ARBGB>
+     <MSGNR>036</MSGNR>
+     <TEXT>&amp; nolu kampanya bakiyesi girilen tutardan az!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZSD_VA</ARBGB>
+     <MSGNR>037</MSGNR>
+     <TEXT>ZSD006 Ekranında ilgili ürünün müşteri değerlerini kontrol ediniz. &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZSD_VA</ARBGB>
+     <MSGNR>038</MSGNR>
+     <TEXT>&amp; Ürerimden kalkmış ürün. Planlama Departmanı ile iletişime geçiniz.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZSD_VA</ARBGB>
+     <MSGNR>039</MSGNR>
+     <TEXT>&amp;: &amp; e tayin edilmiş malzeme bulunmuyor. Kontrol ediniz.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZSD_VA</ARBGB>
+     <MSGNR>040</MSGNR>
+     <TEXT>&amp;: &amp; e tayin edilmiş birden fazla malzeme var. Kontrol ediniz.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZSD_VA</ARBGB>
+     <MSGNR>041</MSGNR>
+     <TEXT>Sistem hata aldı!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZSD_VA</ARBGB>
+     <MSGNR>042</MSGNR>
+     <TEXT>Süreç palet satış süreci değildir.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZSD_VA</ARBGB>
+     <MSGNR>043</MSGNR>
+     <TEXT>ZSD005 Ekranında ilgili ürünün değerlerini kontrol ediniz. &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZSD_VA</ARBGB>
+     <MSGNR>044</MSGNR>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZSD_VA</ARBGB>
+     <MSGNR>045</MSGNR>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZSD_VA</ARBGB>
+     <MSGNR>046</MSGNR>
+     <TEXT>&amp;1 malzemesine ait birden fazla geçerli fiyat listesi vardır.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZSD_VA</ARBGB>
+     <MSGNR>047</MSGNR>
+     <TEXT>Geçerli birden fazla üst müşteri fiyatı vardır!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZSD_VA</ARBGB>
+     <MSGNR>048</MSGNR>
+     <TEXT>Üst müşteri para birimi ile alt müşteri para birimi aynı değildir!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZSD_VA</ARBGB>
+     <MSGNR>049</MSGNR>
+     <TEXT>Üst müşteri fiyatı alt müşteri fiyatından düşük olamaz!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZSD_VA</ARBGB>
+     <MSGNR>050</MSGNR>
+     <TEXT>YURTBAY USA satışları için ödeyen YURTBAY USA olmalıdır!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZSD_VA</ARBGB>
+     <MSGNR>051</MSGNR>
+     <TEXT>Geçerli üst müşteri fiyatı yoktur!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZSD_VA</ARBGB>
+     <MSGNR>052</MSGNR>
+     <TEXT>Sipariş değiştiremezsiniz. Lütfen satış planlamaya başvurunuz!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZSD_VA</ARBGB>
+     <MSGNR>053</MSGNR>
+     <TEXT>Sipariş tarihinden &amp;1 gün öteye yükleme tarihi giremezsiniz!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZSD_VA</ARBGB>
+     <MSGNR>054</MSGNR>
+     <TEXT>&amp; depo yeri için ayrı sipariş açınız!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZSD_VA</ARBGB>
+     <MSGNR>055</MSGNR>
+     <TEXT>Sevkiyat türünü sadece başlıkta giriniz.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZSD_VA</ARBGB>
+     <MSGNR>056</MSGNR>
+     <TEXT>Sipariş tarihinden &amp;1 gün sonra sevk tarihi değiştiremezsiniz!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZSD_VA</ARBGB>
+     <MSGNR>057</MSGNR>
+     <TEXT>&amp; nolu kaleme ait aktif üretim siparişi var(&amp;)! Ret nedeni koyamazsınız!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZSD_VA</ARBGB>
+     <MSGNR>058</MSGNR>
+     <TEXT>Siparişte depo yeri belirlenemedi. Kalemleri kontrol ediniz.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZSD_VA</ARBGB>
+     <MSGNR>059</MSGNR>
+     <TEXT>&amp; tablosunda sevk türü için bakım bulunamadı.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZSD_VA</ARBGB>
+     <MSGNR>060</MSGNR>
+     <TEXT>&amp;1 : Manuel fiyat onay şeması bulunamadı. Stratejiyi kontrol ediniz!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZSD_VA</ARBGB>
+     <MSGNR>061</MSGNR>
+     <TEXT>Sip. yaratma tarihinden &amp;1&apos;den fazla değişiklik yapılamaz!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZSD_VA</ARBGB>
+     <MSGNR>062</MSGNR>
+     <TEXT>%&amp;1&apos;den fazla artırım yapamazsınız!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZSD_VA</ARBGB>
+     <MSGNR>063</MSGNR>
+     <TEXT>Onaylanmış siparişin miktarını azaltamazsınız!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZSD_VA</ARBGB>
+     <MSGNR>064</MSGNR>
+     <TEXT>Yeniden manuel fiyat onayına çıkacaktır bilginize!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZSD_VA</ARBGB>
+     <MSGNR>065</MSGNR>
+     <TEXT>Tarih kontrolleri belirlenmemiş!</TEXT>
+    </T100>
+   </T100>
+  </asx:values>
+ </asx:abap>
+</abapGit>

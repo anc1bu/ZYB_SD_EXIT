@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>ZZPLTPB</ROLLNAME>
+    <DDLANGUAGE>T</DDLANGUAGE>
+    <DOMNAME>WAERS</DOMNAME>
+    <HEADLEN>23</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>15</SCRLEN2>
+    <SCRLEN3>20</SCRLEN3>
+    <DDTEXT>Palet Birim Fiyat Para Birimi</DDTEXT>
+    <REPTEXT>Palet Fiyat Para Birimi</REPTEXT>
+    <SCRTEXT_S>Plt.Fyt.PB</SCRTEXT_S>
+    <SCRTEXT_M>Plt.Fty.PB</SCRTEXT_M>
+    <SCRTEXT_L>Palet Brm.Fyt PB</SCRTEXT_L>
+    <DTELMASTER>T</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+  </asx:values>
+ </asx:abap>
+</abapGit>

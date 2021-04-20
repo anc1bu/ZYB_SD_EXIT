@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_ENHO" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <TOOL>HOOK_IMPL</TOOL>
+   <SHORTTEXT>Fİyatlandırma Geliştirmeleri</SHORTTEXT>
+   <ORIGINAL_OBJECT>
+    <PGMID>R3TR</PGMID>
+    <ORG_OBJ_TYPE>PROG</ORG_OBJ_TYPE>
+    <ORG_OBJ_NAME>SAPMV45A</ORG_OBJ_NAME>
+    <ORG_MAIN_TYPE>PROG</ORG_MAIN_TYPE>
+    <ORG_MAIN_NAME>SAPMV45A</ORG_MAIN_NAME>
+    <PROGRAMNAME>SAPMV45A</PROGRAMNAME>
+   </ORIGINAL_OBJECT>
+   <ENHANCEMENTS>
+    <ENH_HOOK_IMPL>
+     <PROGRAMNAME>SAPMV45A</PROGRAMNAME>
+     <ENHMODE>D</ENHMODE>
+     <FULL_NAME>\PR:SAPMV45A\FO:USEREXIT_PRICING_PREPARE_TKOMK\SE:BEGIN\EI</FULL_NAME>
+     <SOURCE>
+      <item>*Vergi sınıfı ödeyen muhattabından alınır. Normal satışlar ve ihraç kayıtlı satışlar için.</item>
+      <item>DATA: lv_boart LIKE KONA-BOART.</item>
+      <item/>
+      <item>CLEAR lv_boart.</item>
+      <item>SELECT SINGLE BOART FROM KONA</item>
+      <item>  INTO lv_boart</item>
+      <item>  WHERE knuma EQ vbak-zz_knuma_ag.</item>
+      <item>  IF NOT lv_boart IS INITIAL.</item>
+      <item>    tkomk-zzboart = lv_boart.</item>
+      <item>    ENDIF.</item>
+      <item/>
+      <item>tkomk-taxk1 = kurgv-taxk1.</item>
+      <item>tkomk-land1 = kurgv-land1.</item>
+      <item>tkomk-zzvbtyp = tkomk-vbtyp.</item>
+      <item/>
+      <item/>
+      <item>*CHECK vbak-vkorg = &apos;2100&apos; AND vbak-vtweg = &apos;10&apos;.</item>
+      <item>*</item>
+      <item>*DATA: LT_A927PLTYP TYPE TABLE OF A927 WITH HEADER LINE,</item>
+      <item>*      lt_a910      TYPE TABLE OF a910 WITH HEADER LINE,</item>
+      <item>*      l_kschl      TYPE t6b2f-kschl,</item>
+      <item>*      l_kobog      TYPE t6b1-kobog,</item>
+      <item>*      l_boart      TYPE kona-boart,</item>
+      <item>*      l_tvak       TYPE tvak.</item>
+      <item>*</item>
+      <item>*CLEAR: l_kschl, l_kobog, l_boart, l_tvak.</item>
+      <item>*REFRESH: LT_A927PLTYP, lt_a910.</item>
+      <item>*</item>
+      <item>*SELECT SINGLE * FROM tvak INTO l_tvak WHERE auart = vbak-auart.</item>
+      <item>*</item>
+      <item>*CHECK l_tvak-kalvg = &apos;3&apos; OR</item>
+      <item>*      l_tvak-kalvg = &apos;4&apos; OR</item>
+      <item>*      l_tvak-kalvg = &apos;5&apos; OR</item>
+      <item>*      l_tvak-kalvg = &apos;6&apos;.</item>
+      <item>*</item>
+      <item>*SELECT SINGLE boart FROM kona INTO l_boart WHERE KNUMA = vbak-zz_knuma_ag.</item>
+      <item>*IF sy-subrc &lt;&gt; 0.</item>
+      <item>*message e023(zsd_va) with vbak-zz_knuma_ag.</item>
+      <item>*ENDIF.</item>
+      <item>*SELECT SINGLE kobog FROM t6b1 INTO l_kobog WHERE boart = l_boart.</item>
+      <item>*IF sy-subrc &lt;&gt; 0.</item>
+      <item>*message e021(zsd_va).</item>
+      <item>*ENDIF.</item>
+      <item>*SELECT SINGLE kschl FROM t6b2f INTO l_kschl WHERE kappl = &apos;V&apos;</item>
+      <item>*                                              AND kobog = l_kobog</item>
+      <item>*                                              AND zaehk = &apos;01&apos;.</item>
+      <item>*</item>
+      <item>*IF sy-subrc &lt;&gt; 0.</item>
+      <item>*message e021(zsd_va).</item>
+      <item>*ENDIF.</item>
+      <item>*</item>
+      <item>*SELECT * FROM a927 INNER JOIN konp ON konp~knumh = a927~knumh</item>
+      <item>*                 INTO CORRESPONDING FIELDS OF TABLE LT_A927PLTYP</item>
+      <item>*                                           WHERE a927~kappl = &apos;V&apos;</item>
+      <item>*                                             AND a927~kschl = l_kschl</item>
+      <item>*                                             AND a927~knuma_ag = vbak-zz_knuma_ag</item>
+      <item>*                                             AND a927~vkorg = vbak-vkorg</item>
+      <item>*                                             AND a927~vtweg = vbak-vtweg</item>
+      <item>*                                             AND a927~datbi ge vbkd-prsdt</item>
+      <item>*                                             AND a927~datab le vbkd-prsdt</item>
+      <item>*                                             AND konp~LOEVM_KO eq &apos;&apos;.</item>
+      <item>* IF NOT LT_A927PLTYP[] IS INITIAL.</item>
+      <item>*</item>
+      <item>* SELECT pltyp FROM a910</item>
+      <item>*              INNER JOIN konp ON konp~knumh = a910~knumh</item>
+      <item>*              INTO CORRESPONDING FIELDS OF TABLE lt_a910</item>
+      <item>*              FOR ALL ENTRIES IN lt_a927pltyp</item>
+      <item>*              WHERE a910~pltyp = lt_a927pltyp-pltyp</item>
+      <item>*                AND a910~kappl = &apos;V&apos;</item>
+      <item>*                AND a910~kschl = &apos;ZF04&apos;</item>
+      <item>*                AND a910~vkorg = vbak-vkorg</item>
+      <item>*                AND a910~vtweg = vbak-vtweg</item>
+      <item>*                AND a910~matnr = xvbap-matnr</item>
+      <item>*                AND a910~datbi ge xvbkd-prsdt</item>
+      <item>*                AND a910~datab le xvbkd-prsdt</item>
+      <item>*                AND konp~LOEVM_KO eq &apos;&apos;.</item>
+      <item>*</item>
+      <item>* DESCRIBE TABLE lt_a910.</item>
+      <item>* IF sy-tfill = 1.</item>
+      <item>* READ TABLE lt_a910 INDEX 1.</item>
+      <item>* TKOMK-PLTYP = LT_A910-pltyp.</item>
+      <item>* ELSEIF sy-tfill = 0.</item>
+      <item>* message e025(zsd_va) with xvbap-matnr.</item>
+      <item>* ELSE.</item>
+      <item>* message e024(zsd_va) with xvbak-zz_knuma_ag.</item>
+      <item>* ENDIF.</item>
+      <item>*</item>
+      <item>* ELSE.</item>
+      <item>* message e022(zsd_va) with xvbak-zz_knuma_ag.</item>
+      <item>* ENDIF.</item>
+     </SOURCE>
+    </ENH_HOOK_IMPL>
+   </ENHANCEMENTS>
+   <SOTR>
+    <item>
+     <HEADER>
+      <CONCEPT>005056AF698E1ED5818AF999C8A0D40B</CONCEPT>
+      <CREA_LAN>T</CREA_LAN>
+      <TRALA_TYPE>1</TRALA_TYPE>
+      <OBJID_VEC>AAI=</OBJID_VEC>
+     </HEADER>
+     <ENTRIES>
+      <SOTR_TEXT>
+       <CONCEPT>005056AF698E1ED5818AF999C8A0D40B</CONCEPT>
+       <LANGU>T</LANGU>
+       <LFD_NUM>0001</LFD_NUM>
+       <FLAG_CNTXT>X</FLAG_CNTXT>
+       <STATUS>R</STATUS>
+       <LENGTH>042</LENGTH>
+       <TEXT>Fİyatlandırma Geliştirmeleri</TEXT>
+      </SOTR_TEXT>
+     </ENTRIES>
+    </item>
+   </SOTR>
+   <SOTR_USE>
+    <SOTR_USE>
+     <PGMID>R3TR</PGMID>
+     <OBJECT>ENHO</OBJECT>
+     <OBJ_NAME>ZYB_SD_ENH_PRC_PRP_TKOMK</OBJ_NAME>
+     <CONCEPT>005056AF698E1ED5818AF999C8A0D40B</CONCEPT>
+     <LFD_NUM>0001</LFD_NUM>
+    </SOTR_USE>
+   </SOTR_USE>
+  </asx:values>
+ </asx:abap>
+</abapGit>

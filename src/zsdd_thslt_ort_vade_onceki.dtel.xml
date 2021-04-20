@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>ZSDD_THSLT_ORT_VADE_ONCEKI</ROLLNAME>
+    <DDLANGUAGE>T</DDLANGUAGE>
+    <DOMNAME>DATUM</DOMNAME>
+    <HEADLEN>41</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>20</SCRLEN2>
+    <SCRLEN3>40</SCRLEN3>
+    <DDTEXT>Önceki Dönem Kalan Tahsilat Tutarı Vadesi</DDTEXT>
+    <REPTEXT>Önceki Dönem Kalan Tahsilat Tutarı Vadesi</REPTEXT>
+    <SCRTEXT_S>Ö.D.K.T.Va</SCRTEXT_S>
+    <SCRTEXT_M>Önck.Dnm.Kln.Ths.Tut</SCRTEXT_M>
+    <SCRTEXT_L>Önceki Dönem Kalan Tahslat Tutarı Vadesi</SCRTEXT_L>
+    <DTELMASTER>T</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+  </asx:values>
+ </asx:abap>
+</abapGit>

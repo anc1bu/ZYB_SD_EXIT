@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>SD Loglama Function Group</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZYB_SD_G_LOGF01</SOBJ_NAME>
+    <SOBJ_NAME>LZYB_SD_G_LOGTOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZYB_SD_G_LOG</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>ZYB_SD_F_MESSAGE_LOGGING</FUNCNAME>
+     <SHORT_TEXT>Program Mesajları Loglama Fonksiyonu</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>I_LOG_OBJECT</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>BALOBJ_D</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_LOG_SUBOBJECT</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <REFERENCE>X</REFERENCE>
+       <TYP>BALSUBOBJ</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_EXTNUMBER</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>BALNREXT</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_REFRESH</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>CHAR1</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>E_NEW_LOGNUMBERS</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>BAL_T_LGNM</TYP>
+      </RSEXP>
+     </EXPORT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>T_LOG_MESSAGE</PARAMETER>
+       <DBSTRUCT>SYMSG</DBSTRUCT>
+      </RSTBL>
+     </TABLES>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>LOG_HEADER_INCONSISTENT</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>LOGGING_ERROR</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>I_LOG_OBJECT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Uygulama günlüğü: Nesne adı (uygulama kısaltması)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_LOG_SUBOBJECT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Uygulama günlüğü: Alt nesne</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_EXTNUMBER</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Uygulama günlüğü: Harici tanıtıcı</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_REFRESH</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Tek basamaklı gösterge</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>E_NEW_LOGNUMBERS</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Uygulama günlüğü:Yeni tayin edilen LOGNUMBER&apos;ları içeren tb.</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>T_LOG_MESSAGE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Structure of message variables</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>LOG_HEADER_INCONSISTENT</PARAMETER>
+       <KIND>X</KIND>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>LOGGING_ERROR</PARAMETER>
+       <KIND>X</KIND>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

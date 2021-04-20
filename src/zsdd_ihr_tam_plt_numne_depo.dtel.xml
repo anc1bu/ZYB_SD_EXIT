@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>ZSDD_IHR_TAM_PLT_NUMNE_DEPO</ROLLNAME>
+    <DDLANGUAGE>T</DDLANGUAGE>
+    <DOMNAME>XFELD</DOMNAME>
+    <HEADLEN>55</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>19</SCRLEN2>
+    <SCRLEN3>34</SCRLEN3>
+    <DDTEXT>İhracat Tam Palet Numune Sip Depo Yeri Kontrolü (YUR-644)</DDTEXT>
+    <REPTEXT>İhracat Tam Palet Numune Sip Depo Yeri Kontrolü YUR-644</REPTEXT>
+    <SCRTEXT_S>İ.T.N.Dp.K</SCRTEXT_S>
+    <SCRTEXT_M>İh.TmPlt.Num.Dp.Knt</SCRTEXT_M>
+    <SCRTEXT_L>İhr.Sip.TamPlt.Num.Sip.Dep.Knt</SCRTEXT_L>
+    <DTELMASTER>T</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+  </asx:values>
+ </asx:abap>
+</abapGit>

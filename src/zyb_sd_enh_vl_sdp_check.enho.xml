@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_ENHO" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <TOOL>HOOK_IMPL</TOOL>
+   <SHORTTEXT>Teslimat kaydetmeye hazırlık kontrolleri</SHORTTEXT>
+   <ORIGINAL_OBJECT>
+    <PGMID>R3TR</PGMID>
+    <ORG_OBJ_TYPE>PROG</ORG_OBJ_TYPE>
+    <ORG_OBJ_NAME>SAPMV50A</ORG_OBJ_NAME>
+    <ORG_MAIN_TYPE>PROG</ORG_MAIN_TYPE>
+    <ORG_MAIN_NAME>SAPMV50A</ORG_MAIN_NAME>
+    <PROGRAMNAME>SAPMV50A</PROGRAMNAME>
+   </ORIGINAL_OBJECT>
+   <ENHANCEMENTS>
+    <ENH_HOOK_IMPL>
+     <PROGRAMNAME>SAPMV50A</PROGRAMNAME>
+     <ENHMODE>S</ENHMODE>
+     <FULL_NAME>\PR:SAPMV50A\FO:USEREXIT_SAVE_DOCUMENT_PREPARE\SE:BEGIN\EI</FULL_NAME>
+     <SOURCE>
+      <item>&quot;---------&gt;&gt; Anıl CENGİZ 20.05.2018 11:07:51</item>
+      <item>DATA: lv_error TYPE string,</item>
+      <item>      lo_msg   TYPE REF TO if_reca_message_list,</item>
+      <item>      lt_list  TYPE bapirettab,</item>
+      <item>      lo_sdp   TYPE REF TO zcl_sd_mv50afz1_sdp.</item>
+      <item/>
+      <item>lo_sdp = NEW #( ir_xvbup  = REF #( xvbup[] )</item>
+      <item>                ir_xvbuk  = REF #( xvbuk[] )</item>
+      <item>                ir_xlips  = REF #( xlips[] )</item>
+      <item>                ir_xlikp  = REF #( xlikp[] )</item>
+      <item>                ir_xvbfa  = REF #( xvbfa[] )</item>
+      <item>                ir_yvbfa  = REF #( yvbfa[] )</item>
+      <item>                ir_v50agl = REF #( v50agl )</item>
+      <item>                ir_t180   = REF #( t180 )</item>
+      <item>                ir_likp   = REF #( likp ) ).</item>
+      <item>TRY.</item>
+      <item>    lo_sdp-&gt;kontroller( ).</item>
+      <item>    lo_sdp-&gt;veri_atama( ).</item>
+      <item>  CATCH cx_root INTO data(lx_root).</item>
+      <item>    lv_error = lx_root-&gt;if_message~get_text( ).</item>
+      <item>ENDTRY.</item>
+      <item>&quot;---------&lt;&lt;</item>
+      <item/>
+      <item>&quot;---------&gt;&gt; Anıl CENGİZ 17.02.2020 13:36:47</item>
+      <item>&quot;YUR-592 - Refactoring kapsamında eklendi.</item>
+      <item>TRY.</item>
+      <item>    NEW zcl_bc_exit_container( is_params = VALUE #( interface = &apos;ZIF_SD_MV50AFZ1_FORM_SDP&apos;</item>
+      <item>                                                    vars = VALUE #( ( name = &apos;XVBUP&apos;  value = REF #( xvbup[] ) )</item>
+      <item>                                                                    ( name = &apos;XVBUK&apos;  value = REF #( xvbuk[] ) )</item>
+      <item>                                                                    ( name = &apos;XLIPS&apos;  value = REF #( xlips[] ) )</item>
+      <item>                                                                    ( name = &apos;XLIKP&apos;  value = REF #( xlikp[] ) )</item>
+      <item>                                                                    ( name = &apos;XVBFA&apos;  value = REF #( xvbfa[] ) )</item>
+      <item>                                                                    ( name = &apos;YVBFA&apos;  value = REF #( yvbfa[] ) )</item>
+      <item>                                                                    ( name = &apos;V50AGL&apos; value = REF #( v50agl ) )</item>
+      <item>                                                                    ( name = &apos;T180&apos;   value = REF #( t180 ) )</item>
+      <item>                                                                    ( name = &apos;LIKP&apos;   value = REF #( likp ) ) ) ) )-&gt;execute( ).</item>
+      <item>  CATCH zcx_bc_exit_imp INTO DATA(lx_bc_exit_imp).</item>
+      <item>    IF lx_bc_exit_imp-&gt;previous IS BOUND.</item>
+      <item>      DATA(lv_msg) = lx_bc_exit_imp-&gt;previous-&gt;if_message~get_text( ).</item>
+      <item>      MESSAGE lv_msg TYPE &apos;E&apos;.</item>
+      <item>    ELSE.</item>
+      <item>      lo_msg ?= lx_bc_exit_imp-&gt;messages.</item>
+      <item>      IF lo_msg IS BOUND.</item>
+      <item>        lo_msg-&gt;get_list_as_bapiret( IMPORTING et_list = lt_list ).</item>
+      <item>        zcl_sd_toolkit=&gt;hata_goster( VALUE #( FOR wa IN lt_list WHERE ( type = &apos;E&apos; ) ( CORRESPONDING #( wa ) ) ) ).</item>
+      <item>        zcl_sd_toolkit=&gt;bilgi_goster( VALUE #( FOR wa IN lt_list WHERE ( type = &apos;W&apos; OR type = &apos;I&apos; ) ( CORRESPONDING #( wa ) ) ) ).</item>
+      <item>      ENDIF.</item>
+      <item>      lv_msg = lx_bc_exit_imp-&gt;if_message~get_text( ).</item>
+      <item>      MESSAGE lv_msg TYPE &apos;E&apos;.</item>
+      <item>    ENDIF.</item>
+      <item>ENDTRY.</item>
+      <item>&quot;---------&lt;&lt;</item>
+     </SOURCE>
+    </ENH_HOOK_IMPL>
+   </ENHANCEMENTS>
+   <SOTR>
+    <item>
+     <HEADER>
+      <CONCEPT>005056AF698E1ED897806CDAB434D46D</CONCEPT>
+      <CREA_LAN>T</CREA_LAN>
+      <TRALA_TYPE>1</TRALA_TYPE>
+      <OBJID_VEC>AAI=</OBJID_VEC>
+     </HEADER>
+     <ENTRIES>
+      <SOTR_TEXT>
+       <CONCEPT>005056AF698E1ED897806CDAB434D46D</CONCEPT>
+       <LANGU>T</LANGU>
+       <LFD_NUM>0001</LFD_NUM>
+       <FLAG_CNTXT>X</FLAG_CNTXT>
+       <STATUS>R</STATUS>
+       <LENGTH>060</LENGTH>
+       <TEXT>Teslimat kaydetmeye hazırlık kontrolleri</TEXT>
+      </SOTR_TEXT>
+     </ENTRIES>
+    </item>
+   </SOTR>
+   <SOTR_USE>
+    <SOTR_USE>
+     <PGMID>R3TR</PGMID>
+     <OBJECT>ENHO</OBJECT>
+     <OBJ_NAME>ZYB_SD_ENH_VL_SDP_CHECK</OBJ_NAME>
+     <CONCEPT>005056AF698E1ED897806CDAB434D46D</CONCEPT>
+     <LFD_NUM>0001</LFD_NUM>
+    </SOTR_USE>
+   </SOTR_USE>
+  </asx:values>
+ </asx:abap>
+</abapGit>

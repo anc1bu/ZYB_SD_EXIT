@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>SD material exit save</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZSD_MM_SAVETOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZSD_MM_SAVE</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>ZSD_MM_SAVE_TAB</FUNCNAME>
+     <UPDATE_TASK>1</UPDATE_TASK>
+     <SHORT_TEXT>SD Material customer table save</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IS_SD_MD001</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>ZYB_SD_T_MD001</TYP>
+      </RSIMP>
+     </IMPORT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>IT_MD001</PARAMETER>
+       <DBSTRUCT>ZYB_T_MD001</DBSTRUCT>
+      </RSTBL>
+     </TABLES>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IS_SD_MD001</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Müşteri - Malzeme Palet Kutu Bilgisi</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IT_MD001</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Palet ve Kutu Düzeyinde Malzeme Ölçü Birimi Dönüşümleri</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>ZSD_MM_SAVE_TAB2</FUNCNAME>
+     <UPDATE_TASK>1</UPDATE_TASK>
+     <SHORT_TEXT>SD Material customer table save 2</SHORT_TEXT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>T_KALITE</PARAMETER>
+       <DBSTRUCT>ZYB_PP_T_KALITE</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+     </TABLES>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>T_KALITE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Kalite tipi tablosu</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>ZSD_MM_SAVE_TAB_N</FUNCNAME>
+     <UPDATE_TASK>1</UPDATE_TASK>
+     <SHORT_TEXT>ZSD005 ve ZSD006 Tablolarına İç Piyasa İçin Otomatik Tanımlama(YUR-850)</SHORT_TEXT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>IT_SD_MD001</PARAMETER>
+       <DBSTRUCT>ZYB_SD_T_MD001</DBSTRUCT>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>IT_MD001</PARAMETER>
+       <DBSTRUCT>ZYB_T_MD001</DBSTRUCT>
+      </RSTBL>
+     </TABLES>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IT_SD_MD001</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Müşteri - Malzeme Palet Kutu Bilgisi</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IT_MD001</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Palet ve Kutu Düzeyinde Malzeme Ölçü Birimi Dönüşümleri</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

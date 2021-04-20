@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_SD_SEVK_IRSALIYE_CIKTI</CLSNAME>
+    <LANGU>T</LANGU>
+    <DESCRIPT>Sevk İrsaliyesi Çıktısı İçin Oluşturulmuştur</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_SD_SEVK_IRSALIYE_CIKTI</CLSNAME>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <LANGU>T</LANGU>
+     <DESCRIPT>CONSTRUCTOR</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_SD_SEVK_IRSALIYE_CIKTI</CLSNAME>
+     <CMPNAME>CV_SEVK_IRS</CMPNAME>
+     <LANGU>T</LANGU>
+     <DESCRIPT>Sevk İrsaliyesi Çıktı Türü</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_SD_SEVK_IRSALIYE_CIKTI</CLSNAME>
+     <CMPNAME>CV_SEVK_IRS_PDF</CMPNAME>
+     <LANGU>T</LANGU>
+     <DESCRIPT>Sevk İrsaliyesi PDF Çıktı Türü</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_SD_SEVK_IRSALIYE_CIKTI</CLSNAME>
+     <CMPNAME>GS_DELVRY</CMPNAME>
+     <LANGU>T</LANGU>
+     <DESCRIPT>Tek basamaklı gösterge</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_SD_SEVK_IRSALIYE_CIKTI</CLSNAME>
+     <CMPNAME>GS_IRS_CIKTI</CMPNAME>
+     <LANGU>T</LANGU>
+     <DESCRIPT>İrsaliye Çıktı Yapısı</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

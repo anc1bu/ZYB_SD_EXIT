@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_TABL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD02V>
+    <TABNAME>ZYB_SD_VBKD</TABNAME>
+    <DDLANGUAGE>T</DDLANGUAGE>
+    <TABCLASS>APPEND</TABCLASS>
+    <SQLTAB>VBKD</SQLTAB>
+    <DDTEXT>VBKD Ek Alanlar</DDTEXT>
+   </DD02V>
+   <DD08V_TABLE>
+    <DD08V>
+     <FIELDNAME>ZZ_LCNUM</FIELDNAME>
+     <CHECKTABLE>*</CHECKTABLE>
+     <NOINHERIT>E</NOINHERIT>
+    </DD08V>
+   </DD08V_TABLE>
+  </asx:values>
+ </asx:abap>
+</abapGit>

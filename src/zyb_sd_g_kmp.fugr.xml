@@ -1,0 +1,212 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>Kampanya Function Group</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZYB_SD_G_KMPF01</SOBJ_NAME>
+    <SOBJ_NAME>LZYB_SD_G_KMPTOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZYB_SD_G_KMP</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>ZYB_SD_F_KMP_FIND</FUNCNAME>
+     <SHORT_TEXT>Müşteriye Ait Kampanya Bulma</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>I_VKORG</PARAMETER>
+       <TYP>VKORG</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_VTWEG</PARAMETER>
+       <TYP>VTWEG</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_KUNNR</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>KUNNR</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_DATE</PARAMETER>
+       <DEFAULT>SY-DATUM</DEFAULT>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>DATUM</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_HELP</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>XFELD</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_AUART</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>AUART</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>KMPLIST</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>ZYB_SD_TY_KMPLIST</TYP>
+      </RSEXP>
+     </EXPORT>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>NOT_FOUND</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>FORMAT_ERROR</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>I_VKORG</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Satış organizasyonu</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_VTWEG</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Dağıtım kanalı</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_KUNNR</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Müşteri numarası</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_DATE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Tarih</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_HELP</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Seçme kutusu</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_AUART</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Satış belgesi türü</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>KMPLIST</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Müşteri - Kampanya Listesi Type Table</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>NOT_FOUND</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>not_found</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>FORMAT_ERROR</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>format_error</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>ZYB_SD_F_KMP_SELECT_POPUP</FUNCNAME>
+     <SHORT_TEXT>Sipariş Kampanya Seçimi</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>I_VKORG</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>VKORG</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_VTWEG</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>VTWEG</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_KUNNR</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>KUNNR</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_DATE</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>DATUM</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_AUART</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>AUART</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>E_KNUMA</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>KNUMA_AG</TYP>
+      </RSEXP>
+      <RSEXP>
+       <PARAMETER>E_ZTERM</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>DZTERM</TYP>
+      </RSEXP>
+      <RSEXP>
+       <PARAMETER>E_LCNUM</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>LCNUM</TYP>
+      </RSEXP>
+      <RSEXP>
+       <PARAMETER>E_BOART</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>BOART</TYP>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>I_VKORG</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Satış organizasyonu</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_VTWEG</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Dağıtım kanalı</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_KUNNR</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Müşteri numarası</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_DATE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Tarih</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_AUART</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Satış belgesi türü</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>E_KNUMA</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Ticari promosyon</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>E_ZTERM</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Ödeme koşulları anahtarı</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>E_LCNUM</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Mali belge işlemleri: Dahili mali belge numarası</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>E_BOART</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Anlaşma türü</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

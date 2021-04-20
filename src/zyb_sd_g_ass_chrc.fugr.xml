@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>Parti Karakteristik İşlevler</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZYB_SD_G_ASS_CHRCF01</SOBJ_NAME>
+    <SOBJ_NAME>LZYB_SD_G_ASS_CHRCTOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZYB_SD_G_ASS_CHRC</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>ZYB_SD_F_BATCH_MIK_ALAN</FUNCNAME>
+     <SHORT_TEXT>Kutu / Palet Miktar Ve Alan Set Etme</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>GLOBALS</PARAMETER>
+       <DBFIELD>CUOV_00</DBFIELD>
+       <REFERENCE>X</REFERENCE>
+      </RSIMP>
+     </IMPORT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>QUERY</PARAMETER>
+       <DBSTRUCT>CUOV_01</DBSTRUCT>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>MATCH</PARAMETER>
+       <DBSTRUCT>CUOV_01</DBSTRUCT>
+      </RSTBL>
+     </TABLES>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>FAIL</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>INTERNAL_ERROR</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>GLOBALS</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Nesne bağlantılarında işlevlerin çağrısı için genel veriler</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>QUERY</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Nesne bağlantılarından işlev çağrısı için arayüz</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>MATCH</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Nesne bağlantılarından işlev çağrısı için arayüz</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>FAIL</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fail</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>INTERNAL_ERROR</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Internal Error</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

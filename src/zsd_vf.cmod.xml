@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CMOD" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <MODACT>
+    <MODACT>
+     <NAME>ZSD_VF</NAME>
+    </MODACT>
+    <MODACT>
+     <NAME>ZSD_VF</NAME>
+     <MEMBER>MCS50001</MEMBER>
+    </MODACT>
+    <MODACT>
+     <NAME>ZSD_VF</NAME>
+     <MEMBER>MCS60001</MEMBER>
+    </MODACT>
+    <MODACT>
+     <NAME>ZSD_VF</NAME>
+     <MEMBER>SDVFX001</MEMBER>
+    </MODACT>
+    <MODACT>
+     <NAME>ZSD_VF</NAME>
+     <MEMBER>SDVFX002</MEMBER>
+    </MODACT>
+    <MODACT>
+     <NAME>ZSD_VF</NAME>
+     <MEMBER>SDVFX004</MEMBER>
+    </MODACT>
+    <MODACT>
+     <NAME>ZSD_VF</NAME>
+     <MEMBER>SDVFX008</MEMBER>
+    </MODACT>
+    <MODACT>
+     <NAME>ZSD_VF</NAME>
+     <MEMBER>V50EPROP</MEMBER>
+    </MODACT>
+    <MODACT>
+     <NAME>ZSD_VF</NAME>
+     <MEMBER>V60P0001</MEMBER>
+    </MODACT>
+   </MODACT>
+   <MODTEXT>
+    <MODTEXT>
+     <SPRSL>T</SPRSL>
+     <NAME>ZSD_VF</NAME>
+     <MODTEXT>Fatura ile ilgili Exitler</MODTEXT>
+    </MODTEXT>
+   </MODTEXT>
+   <MODATTR>
+    <MODATTR>
+     <NAME>ZSD_VF</NAME>
+     <STATUS>A</STATUS>
+    </MODATTR>
+   </MODATTR>
+  </asx:values>
+ </asx:abap>
+</abapGit>

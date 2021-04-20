@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>ZSDD_SOFORADI</ROLLNAME>
+    <DDLANGUAGE>T</DDLANGUAGE>
+    <HEADLEN>16</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>16</SCRLEN2>
+    <SCRLEN3>16</SCRLEN3>
+    <DDTEXT>Soför Adı Soyadı</DDTEXT>
+    <REPTEXT>Şöför Adı Soyadı</REPTEXT>
+    <SCRTEXT_S>Şöför Ad.S</SCRTEXT_S>
+    <SCRTEXT_M>Şöför Adı Soyadı</SCRTEXT_M>
+    <SCRTEXT_L>Şöför Adı Soyadı</SCRTEXT_L>
+    <DTELMASTER>T</DTELMASTER>
+    <DATATYPE>CHAR</DATATYPE>
+    <LENG>000100</LENG>
+    <OUTPUTLEN>000100</OUTPUTLEN>
+   </DD04V>
+  </asx:values>
+ </asx:abap>
+</abapGit>

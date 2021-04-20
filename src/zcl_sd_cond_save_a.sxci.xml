@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SXCI" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <SXCI>
+    <IMPLEMENTATION_DATA>
+     <IMP_NAME>ZCL_SD_COND_SAVE_A</IMP_NAME>
+     <TEXT>ZCL_SD_COND_SAVE_A</TEXT>
+     <IMP_CLASS>ZCL_IM_CL_SD_COND_SAVE_A</IMP_CLASS>
+     <EXIT_NAME>SD_COND_SAVE_A</EXIT_NAME>
+     <INTER_NAME>IF_EX_SD_COND_SAVE_A</INTER_NAME>
+    </IMPLEMENTATION_DATA>
+   </SXCI>
+  </asx:values>
+ </asx:abap>
+</abapGit>

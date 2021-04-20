@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CMOD" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <MODACT>
+    <MODACT>
+     <NAME>ZSD_VA</NAME>
+    </MODACT>
+    <MODACT>
+     <NAME>ZSD_VA</NAME>
+     <MEMBER>0VRF0001</MEMBER>
+    </MODACT>
+    <MODACT>
+     <NAME>ZSD_VA</NAME>
+     <MEMBER>ATP00001</MEMBER>
+    </MODACT>
+    <MODACT>
+     <NAME>ZSD_VA</NAME>
+     <MEMBER>CCUX0000</MEMBER>
+    </MODACT>
+    <MODACT>
+     <NAME>ZSD_VA</NAME>
+     <MEMBER>MDR10001</MEMBER>
+    </MODACT>
+    <MODACT>
+     <NAME>ZSD_VA</NAME>
+     <MEMBER>V09A0003</MEMBER>
+    </MODACT>
+    <MODACT>
+     <NAME>ZSD_VA</NAME>
+     <MEMBER>V45S0001</MEMBER>
+    </MODACT>
+    <MODACT>
+     <NAME>ZSD_VA</NAME>
+     <MEMBER>V50Q0001</MEMBER>
+    </MODACT>
+   </MODACT>
+   <MODTEXT>
+    <MODTEXT>
+     <SPRSL>T</SPRSL>
+     <NAME>ZSD_VA</NAME>
+     <MODTEXT>Sipariş için Enhancement</MODTEXT>
+    </MODTEXT>
+   </MODTEXT>
+   <MODATTR>
+    <MODATTR>
+     <NAME>ZSD_VA</NAME>
+     <STATUS>A</STATUS>
+    </MODATTR>
+   </MODATTR>
+  </asx:values>
+ </asx:abap>
+</abapGit>

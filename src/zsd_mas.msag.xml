@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>ZSD_MAS</ARBGB>
+    <MASTERLANG>T</MASTERLANG>
+    <STEXT>SD: Master Data Mesaj Sınıfı</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZSD_MAS</ARBGB>
+     <MSGNR>000</MSGNR>
+     <TEXT>&amp; &amp; &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZSD_MAS</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>&amp; Hesap Grubunda &amp; Stş Org. ve &amp; DK için Müşteri Yaratılamaz! &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZSD_MAS</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>&amp; Hesap Grp.için SD Görünümleri Açılamaz! &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZSD_MAS</ARBGB>
+     <MSGNR>003</MSGNR>
+     <TEXT>&amp; Malzeme Türünde &amp; Stş Org. ve &amp; DK için Malzeme Yaratılamaz! &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZSD_MAS</ARBGB>
+     <MSGNR>004</MSGNR>
+     <TEXT>&amp; Malzeme Türü için SD Görünümleri Açılamaz! &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZSD_MAS</ARBGB>
+     <MSGNR>005</MSGNR>
+     <TEXT>&amp; Malzeme Tür. &amp; Stş. Org. &amp; DK için &amp; Kalem Tipi Grup(ları) Seçilebilir!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZSD_MAS</ARBGB>
+     <MSGNR>006</MSGNR>
+     <TEXT>&amp; Hesap Grubunda &amp; Stş Org. ve &amp; DK için Kredi Kontrol Alanı Girilmeli! &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZSD_MAS</ARBGB>
+     <MSGNR>007</MSGNR>
+     <TEXT>&amp; Hesap Grp. &amp; Stş Org. ve &amp; DK için Uygun Kredi Kontrol Alanı Giriniz! &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZSD_MAS</ARBGB>
+     <MSGNR>008</MSGNR>
+     <TEXT>&amp; Hesap Grubunda &amp; Stş Org. ve &amp; DK için Kredi Kontrol Alanı Girilemez! &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZSD_MAS</ARBGB>
+     <MSGNR>009</MSGNR>
+     <TEXT>Müşteri Para Brm. Girilen Kredi Kontrol Alanı (&amp;) Para Biriminden Farklı!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZSD_MAS</ARBGB>
+     <MSGNR>010</MSGNR>
+     <TEXT>&amp; nolu Müş. için &amp; Kredi Kontrol Alanı Yaratılmış Farklı Seçim Yapılamaz!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZSD_MAS</ARBGB>
+     <MSGNR>011</MSGNR>
+     <TEXT>Öncelikle Sanayi Stş Org. ( &amp; ) ve Dağ. Kan. ( &amp; ) &apos;da açılması gerekli!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZSD_MAS</ARBGB>
+     <MSGNR>012</MSGNR>
+     <TEXT>Defolu &amp; malzemesi için UY: &amp; de Mip Karakteristiği &amp; olabilir!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZSD_MAS</ARBGB>
+     <MSGNR>013</MSGNR>
+     <TEXT>&amp; Malzeme Tür. &amp; Stş. Org. &amp; DK için &amp; HesapTayin Grup(ları) Seçilebilir!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZSD_MAS</ARBGB>
+     <MSGNR>014</MSGNR>
+     <TEXT>&amp; Hesap Grubu. &amp; Stş. Org. &amp; DK için &amp; HesapTayin Grup(ları) Seçilebilir!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZSD_MAS</ARBGB>
+     <MSGNR>015</MSGNR>
+     <TEXT>&amp; nolu ihracat müşterisi için Vergi Göstergesi sadece &amp; veya &amp; olabilir.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZSD_MAS</ARBGB>
+     <MSGNR>016</MSGNR>
+     <TEXT>&amp;: &amp; farklı &amp; malzemeye daha tayin edilmiş. Kontrol ediniz.</TEXT>
+    </T100>
+   </T100>
+  </asx:values>
+ </asx:abap>
+</abapGit>

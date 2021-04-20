@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_SD_MV50AFZ1_SDP</CLSNAME>
+    <LANGU>T</LANGU>
+    <DESCRIPT>Teslimat kaydetmeye hazırlık kontrolleri</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_SD_MV50AFZ1_SDP</CLSNAME>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <LANGU>T</LANGU>
+     <DESCRIPT>CONSTRUCTOR</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_SD_MV50AFZ1_SDP</CLSNAME>
+     <CMPNAME>HATA_GOSTER</CMPNAME>
+     <LANGU>T</LANGU>
+     <DESCRIPT>kontrol sonucu dönen hatalar</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_SD_MV50AFZ1_SDP</CLSNAME>
+     <CMPNAME>KONTROLLER</CMPNAME>
+     <LANGU>T</LANGU>
+     <DESCRIPT>Kontrollerin yapıldığı metod</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_SD_MV50AFZ1_SDP</CLSNAME>
+     <CMPNAME>TASIMA_IRSALIYE</CMPNAME>
+     <LANGU>T</LANGU>
+     <DESCRIPT>Taşıma İrsaliyesi atama</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_SD_MV50AFZ1_SDP</CLSNAME>
+     <CMPNAME>VERI_ATAMA</CMPNAME>
+     <LANGU>T</LANGU>
+     <DESCRIPT>SDP de veri atamalarının yapıldı metod</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

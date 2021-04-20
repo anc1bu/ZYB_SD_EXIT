@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>ZYB_SD_E_CEKME</ROLLNAME>
+    <DDLANGUAGE>T</DDLANGUAGE>
+    <DOMNAME>XFELD</DOMNAME>
+    <HEADLEN>26</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>19</SCRLEN2>
+    <SCRLEN3>26</SCRLEN3>
+    <DDTEXT>Sevkiyat İçin Çekme İşlemi</DDTEXT>
+    <REPTEXT>Sevkiyat İçin Çekme İşlemi</REPTEXT>
+    <SCRTEXT_S>Çekme İşlm</SCRTEXT_S>
+    <SCRTEXT_M>Svk İçin Çekme İşlm</SCRTEXT_M>
+    <SCRTEXT_L>Sevkiyat İçin Çekme İşlemi</SCRTEXT_L>
+    <DTELMASTER>T</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+  </asx:values>
+ </asx:abap>
+</abapGit>

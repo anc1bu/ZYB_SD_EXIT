@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>ZSD_VL</ARBGB>
+    <MASTERLANG>T</MASTERLANG>
+    <STEXT>Teslimat Belgeleri İçin Mesaj Sınıfı</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZSD_VL</ARBGB>
+     <MSGNR>000</MSGNR>
+     <TEXT>&amp; &amp; &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZSD_VL</ARBGB>
+     <MSGNR>001</MSGNR>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZSD_VL</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>&amp; nolu tsl. &amp; nolu kalemindeki &amp; nolu malz çekmesi mevcut klm silinemez!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZSD_VL</ARBGB>
+     <MSGNR>003</MSGNR>
+     <TEXT>&amp; partisi &amp; nolu teslimatın &amp; nolu kaleminde planlanmış çıkış yapılamaz!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZSD_VL</ARBGB>
+     <MSGNR>004</MSGNR>
+     <TEXT>&amp; nolu teslimatın ambalajlaması eksik!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZSD_VL</ARBGB>
+     <MSGNR>005</MSGNR>
+     <TEXT>&amp; nolu nakliyeye ait plaka bilgisi eksik. &amp; nolu tes.mal çık. etkin değil</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZSD_VL</ARBGB>
+     <MSGNR>006</MSGNR>
+     <TEXT>&amp; nolu teslimat için mali belge bloke edilmiştir!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZSD_VL</ARBGB>
+     <MSGNR>007</MSGNR>
+     <TEXT>&amp; nolu tes. ait irsaliye numarası güncellenmedi.(Teslimat Bulunamadı)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZSD_VL</ARBGB>
+     <MSGNR>008</MSGNR>
+     <TEXT>Mal çıkış işlemi günün tarihinden küçük olamaz! Girilen tarih: &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZSD_VL</ARBGB>
+     <MSGNR>009</MSGNR>
+     <TEXT>&amp; nolu teslimatın mal çıkışı yapılmadan irsaliye kesilemez!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZSD_VL</ARBGB>
+     <MSGNR>010</MSGNR>
+     <TEXT>&amp; nolu müşteri için kredi blokajı hatası! Çek girişi yapınız!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZSD_VL</ARBGB>
+     <MSGNR>011</MSGNR>
+     <TEXT>&amp; nolu tes. ait irsaliye numarası daha önce kullanılmıştır.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZSD_VL</ARBGB>
+     <MSGNR>012</MSGNR>
+     <TEXT>&amp; nolu tes. ait irs. num. eşlenik değildir.önceki numara kullanılmamıştır</TEXT>
+    </T100>
+   </T100>
+  </asx:values>
+ </asx:abap>
+</abapGit>

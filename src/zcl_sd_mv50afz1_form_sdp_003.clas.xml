@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_SD_MV50AFZ1_FORM_SDP_003</CLSNAME>
+    <LANGU>T</LANGU>
+    <DESCRIPT>Bedelsiz Kalemler için Faturalama FKREL Atanması (YUR-785)</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_SD_MV50AFZ1_FORM_SDP_003</CLSNAME>
+     <CMPNAME>CLASS_CONSTRUCTOR</CMPNAME>
+     <LANGU>T</LANGU>
+     <DESCRIPT>CLASS_CONSTRUCTOR</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_SD_MV50AFZ1_FORM_SDP_003</CLSNAME>
+     <CMPNAME>GT_PSTYV_FKREL</CMPNAME>
+     <LANGU>T</LANGU>
+     <DESCRIPT>Tek basamaklı gösterge</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_SD_MV50AFZ1_FORM_SDP_003</CLSNAME>
+     <CMPNAME>TY_PSTYV</CMPNAME>
+     <LANGU>T</LANGU>
+     <DESCRIPT>Tek basamaklı gösterge</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

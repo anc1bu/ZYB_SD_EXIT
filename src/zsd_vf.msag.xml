@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>ZSD_VF</ARBGB>
+    <MASTERLANG>T</MASTERLANG>
+    <STEXT>Fatura Belgeleri için Mesaj Sınıfı</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZSD_VF</ARBGB>
+     <MSGNR>000</MSGNR>
+     <TEXT>&amp; &amp; &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZSD_VF</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>Şirketlerarası fatura belgesi mevcut!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZSD_VF</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>Ters Kayıt Alınacak Şirketlerarası fatura bulunamadı.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZSD_VF</ARBGB>
+     <MSGNR>003</MSGNR>
+     <TEXT>Muhasebe belgesi iptal edilecek Şirketlerarası fatura bulunamadı.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZSD_VF</ARBGB>
+     <MSGNR>004</MSGNR>
+     <TEXT>&amp; nolu şirketlerarası faturaya ait yaratılacak muh. belgesi bulunamadı.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZSD_VF</ARBGB>
+     <MSGNR>005</MSGNR>
+     <TEXT>&amp; nolu şirketlerarası faturaya ait iptal edilecek muh. belgesi bulunamadı</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZSD_VF</ARBGB>
+     <MSGNR>006</MSGNR>
+     <TEXT>Şirketlerarası fatura belgesi yaratmak için teslimat belgesi bulunamadı.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZSD_VF</ARBGB>
+     <MSGNR>007</MSGNR>
+     <TEXT>&amp; Satış organizasyonuna ait satıcı kodu bulunamadı. &amp; .</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZSD_VF</ARBGB>
+     <MSGNR>008</MSGNR>
+     <TEXT>Muhasebe belgesi yaratılacak şirket kodu bulunamadı.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZSD_VF</ARBGB>
+     <MSGNR>009</MSGNR>
+     <TEXT>Satıcının ödeme koşul anahtarı eksik.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZSD_VF</ARBGB>
+     <MSGNR>010</MSGNR>
+     <TEXT>&amp; nolu malzeme için &amp; hesabı bulunamadı. (T030 tablosunu kontrol edin!)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZSD_VF</ARBGB>
+     <MSGNR>011</MSGNR>
+     <TEXT>&amp; nolu fatura belgesi için &amp; &amp; muhasebe belgesi kaydedildi.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZSD_VF</ARBGB>
+     <MSGNR>012</MSGNR>
+     <TEXT>&amp; belgesine ait müşteri faturası eksik. &amp; &amp;.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZSD_VF</ARBGB>
+     <MSGNR>013</MSGNR>
+     <TEXT>&amp; nolu Müşteri faturası muhasebeleşmedi! &amp;.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZSD_VF</ARBGB>
+     <MSGNR>014</MSGNR>
+     <TEXT>İntaç Tarihi girilmeden Muhasebeleştirilemez!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZSD_VF</ARBGB>
+     <MSGNR>015</MSGNR>
+     <TEXT>Şirketlerarası fatura belgesi yaratmak için fatura belgesi bulunamadı.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZSD_VF</ARBGB>
+     <MSGNR>016</MSGNR>
+     <TEXT>Muhasebe belgesinde müşteri satırı bulunmamaktadır!</TEXT>
+    </T100>
+   </T100>
+  </asx:values>
+ </asx:abap>
+</abapGit>

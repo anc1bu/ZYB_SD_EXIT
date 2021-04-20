@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>Parti Function Group</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZYB_SD_G_PARTIF01</SOBJ_NAME>
+    <SOBJ_NAME>LZYB_SD_G_PARTITOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZYB_SD_G_PARTI</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>ZYB_SD_F_BATCH_READ</FUNCNAME>
+     <SHORT_TEXT>Parti Karakteristik Okuma Fonkiyonu</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>I_MATNR</PARAMETER>
+       <TYP>MATNR</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_WERKS</PARAMETER>
+       <DEFAULT>1000</DEFAULT>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>WERKS_D</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_CHARG</PARAMETER>
+       <TYP>CHARG_D</TYP>
+      </RSIMP>
+     </IMPORT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>VAL_NUM</PARAMETER>
+       <DBSTRUCT>BAPI1003_ALLOC_VALUES_NUM</DBSTRUCT>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>VAL_CHAR</PARAMETER>
+       <DBSTRUCT>BAPI1003_ALLOC_VALUES_CHAR</DBSTRUCT>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>VAL_CURR</PARAMETER>
+       <DBSTRUCT>BAPI1003_ALLOC_VALUES_CURR</DBSTRUCT>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>RETURN</PARAMETER>
+       <DBSTRUCT>BAPIRET2</DBSTRUCT>
+      </RSTBL>
+     </TABLES>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>I_MATNR</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Malzeme numarası</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_WERKS</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Üretim yeri</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_CHARG</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Parti numarası</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>VAL_NUM</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>BAPI sınıflandırması - NUM, DATE, TIME tipi değerlemeleri</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>VAL_CHAR</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>BAPI sınıflandırması - CHAR, BOOLEAN tipi değerlemeleri</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>VAL_CURR</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>BAPI sınıflandırması - CURR tipi değerlemeleri</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>RETURN</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Dönüş parametresi</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>ZYB_SD_F_BATCH_READ_MUL</FUNCNAME>
+     <SHORT_TEXT>Parti Karakteristiği Okuma (Toplu)</SHORT_TEXT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>TB_KRK</PARAMETER>
+       <DBSTRUCT>ZYB_SD_S_KRK_VAL</DBSTRUCT>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>ATNAM_RT</PARAMETER>
+       <DBSTRUCT>BAPICHARACTRANGETABLE</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+     </TABLES>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>TB_KRK</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Karakteristik Değerleri Structure</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ATNAM_RT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>BAPI karakteristikleri-ada göre arama için aralık tablosu</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

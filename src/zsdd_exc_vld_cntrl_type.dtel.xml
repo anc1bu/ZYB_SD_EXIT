@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>ZSDD_EXC_VLD_CNTRL_TYPE</ROLLNAME>
+    <DDLANGUAGE>T</DDLANGUAGE>
+    <DOMNAME>ZSDO_EXC_VLD_CNTRL_TYPE</DOMNAME>
+    <HEADLEN>49</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>19</SCRLEN2>
+    <SCRLEN3>30</SCRLEN3>
+    <DDTEXT>Kontrol Tipi - İstisna mı (exc) Geçerli mi? (vld)</DDTEXT>
+    <REPTEXT>Kontrol Tipi - İstisna mı (exc) Geçerli mi? (vld)</REPTEXT>
+    <SCRTEXT_S>Kt.T.İs.Gc</SCRTEXT_S>
+    <SCRTEXT_M>Kntr.Tip.İstsn&amp;Gcrl</SCRTEXT_M>
+    <SCRTEXT_L>Kontrol Tipi - İstisna&amp;Geçerli</SCRTEXT_L>
+    <DTELMASTER>T</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+  </asx:values>
+ </asx:abap>
+</abapGit>

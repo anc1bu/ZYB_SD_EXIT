@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>Virman İşlemleri Function Group</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZYB_SD_G_VRMF01</SOBJ_NAME>
+    <SOBJ_NAME>LZYB_SD_G_VRMTOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZYB_SD_G_VRM</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>ZYB_SD_F_BLOKE_STOK</FUNCNAME>
+     <SHORT_TEXT>Bloke Stok Bulma Fonksiyonu</SHORT_TEXT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>BLOKE_TAB</PARAMETER>
+       <DBSTRUCT>ZYB_SD_S_BLOKE</DBSTRUCT>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>SD_KEY_TAB</PARAMETER>
+       <DBSTRUCT>ZYB_SD_S_SDKEY</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>MATERIAL_KEY_TAB</PARAMETER>
+       <DBSTRUCT>ZYB_SD_S_MATKEY</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+     </TABLES>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>BLOKE_TAB</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Bloke Stok Structure</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>SD_KEY_TAB</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>VBELN - POSNR structure</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>MATERIAL_KEY_TAB</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>MATNR - CHARG structure</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>ZYB_SD_F_BLOKE_STOK_N</FUNCNAME>
+     <SHORT_TEXT>Bloke Stok Bulma Fonksiyonu</SHORT_TEXT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>BLOKE_TAB</PARAMETER>
+       <DBSTRUCT>ZYB_SD_S_BLOKE</DBSTRUCT>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>SD_KEY_TAB</PARAMETER>
+       <DBSTRUCT>ZYB_SD_S_SDKEY</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>MATERIAL_KEY_TAB</PARAMETER>
+       <DBSTRUCT>ZYB_SD_S_MATKEY</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+     </TABLES>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>BLOKE_TAB</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Bloke Stok Structure</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>SD_KEY_TAB</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>VBELN - POSNR structure</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>MATERIAL_KEY_TAB</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>MATNR - CHARG structure</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>ZYB_SD_F_VRM_CHECK</FUNCNAME>
+     <SHORT_TEXT>Virman İşlemleri Kontrol Fonksiyonu</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>USER_EXIT</PARAMETER>
+       <DEFAULT>&apos; &apos;</DEFAULT>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>XFELD</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>VRM_CHECK</PARAMETER>
+       <TYP>ZYB_SD_TY_VRM_CHECK</TYP>
+      </RSIMP>
+     </IMPORT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>RETURN</PARAMETER>
+       <DBSTRUCT>BAPIRET2</DBSTRUCT>
+      </RSTBL>
+     </TABLES>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>USER_EXIT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>ABAP System Field: Calling Program</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>VRM_CHECK</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Virman Kontrol Table Type</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>RETURN</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Dönüş parametresi</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

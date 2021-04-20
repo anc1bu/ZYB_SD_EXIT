@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_ENHC" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <SHORTTEXT>SD uygulamaları için composite enh</SHORTTEXT>
+   <ENH_CHILDS>
+    <ENHNAME>ZYB_SD_ENH_IMP_SAPMV13A</ENHNAME>
+   </ENH_CHILDS>
+   <SOTR>
+    <item>
+     <HEADER>
+      <CONCEPT>005056AF698E1ED8B78F74403AA8D487</CONCEPT>
+      <CREA_LAN>T</CREA_LAN>
+      <TRALA_TYPE>1</TRALA_TYPE>
+      <OBJID_VEC>AACA</OBJID_VEC>
+     </HEADER>
+     <ENTRIES>
+      <SOTR_TEXT>
+       <CONCEPT>005056AF698E1ED8B78F74403AA8D487</CONCEPT>
+       <LANGU>T</LANGU>
+       <LFD_NUM>0001</LFD_NUM>
+       <FLAG_CNTXT>X</FLAG_CNTXT>
+       <STATUS>R</STATUS>
+       <LENGTH>051</LENGTH>
+       <TEXT>SD uygulamaları için composite enh</TEXT>
+      </SOTR_TEXT>
+     </ENTRIES>
+    </item>
+   </SOTR>
+   <SOTR_USE>
+    <SOTR_USE>
+     <PGMID>R3TR</PGMID>
+     <OBJECT>ENHC</OBJECT>
+     <OBJ_NAME>ZYB_SD_COM_ENH</OBJ_NAME>
+     <CONCEPT>005056AF698E1ED8B78F74403AA8D487</CONCEPT>
+     <LFD_NUM>0001</LFD_NUM>
+    </SOTR_USE>
+   </SOTR_USE>
+  </asx:values>
+ </asx:abap>
+</abapGit>

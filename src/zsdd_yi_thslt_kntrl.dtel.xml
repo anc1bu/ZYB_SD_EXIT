@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>ZSDD_YI_THSLT_KNTRL</ROLLNAME>
+    <DDLANGUAGE>T</DDLANGUAGE>
+    <DOMNAME>XFELD</DOMNAME>
+    <HEADLEN>45</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>20</SCRLEN2>
+    <SCRLEN3>35</SCRLEN3>
+    <DDTEXT>Sipariş Girişinde Tahsilat Kontrolü (YUR-835)</DDTEXT>
+    <REPTEXT>Sipariş Girişinde Tahsilat Kontrolü (YUR-835)</REPTEXT>
+    <SCRTEXT_S>Sip.G.TH.K</SCRTEXT_S>
+    <SCRTEXT_M>Sip.Grş.Tahsilat.Knt</SCRTEXT_M>
+    <SCRTEXT_L>Sipariş Girişinde Tahsilat Kontrolü</SCRTEXT_L>
+    <DTELMASTER>T</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+  </asx:values>
+ </asx:abap>
+</abapGit>

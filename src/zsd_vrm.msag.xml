@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>ZSD_VRM</ARBGB>
+    <MASTERLANG>T</MASTERLANG>
+    <STEXT>Virman İşlemleri Mesaj Sınıfı</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZSD_VRM</ARBGB>
+     <MSGNR>000</MSGNR>
+     <TEXT>&amp; &amp; &amp; &amp;.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZSD_VRM</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>Siparişteki malzeme ile &amp; malzeme birbirinden farklı!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZSD_VRM</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>İhracat için sadece &amp; kalite mal girişi yapılabilir!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZSD_VRM</ARBGB>
+     <MSGNR>003</MSGNR>
+     <TEXT>Giriş yapılan &amp; nolu sipariş &amp; nolu kaleme ret nedeni girilmiş! &amp; .</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZSD_VRM</ARBGB>
+     <MSGNR>004</MSGNR>
+     <TEXT>Giriş yapılan &amp; nolu sipariş &amp; nolu kaleme ait açık miktar: &amp; &amp; .</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZSD_VRM</ARBGB>
+     <MSGNR>005</MSGNR>
+     <TEXT>Giriş Yapılan &amp; nolu sipariş &amp; nolu kaleme ait &amp; bulunamadı!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZSD_VRM</ARBGB>
+     <MSGNR>006</MSGNR>
+     <TEXT>Giriş Yapılan &amp; nolu sipariş &amp; nolu kalemin &amp; tutarlı değil &amp;.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZSD_VRM</ARBGB>
+     <MSGNR>007</MSGNR>
+     <TEXT>Virman Yapılan Malzemeler Farklı!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZSD_VRM</ARBGB>
+     <MSGNR>008</MSGNR>
+     <TEXT>Virman yapılan &amp; nolu sipariş &amp; nolu kaleme ret nedeni girilmiş! &amp; .</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZSD_VRM</ARBGB>
+     <MSGNR>009</MSGNR>
+     <TEXT>Virman yapılan &amp; nolu sipariş &amp; nolu kaleme ait açık miktar: &amp; &amp; .</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZSD_VRM</ARBGB>
+     <MSGNR>010</MSGNR>
+     <TEXT>Virman işlemi için parti karakteristikleri uyuşmuyor. ( &amp; ) &amp; .</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZSD_VRM</ARBGB>
+     <MSGNR>011</MSGNR>
+     <TEXT>Yalnız Palet Tipi &amp; olan paletler taşınabilir!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZSD_VRM</ARBGB>
+     <MSGNR>012</MSGNR>
+     <TEXT>Palet Durumu Boş olan kayıtlar için mal hareketi yapılamaz!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZSD_VRM</ARBGB>
+     <MSGNR>013</MSGNR>
+     <TEXT>Virman yapılan &amp; parti numarası sevkiyat için blokeli. Virman Yapılamaz!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZSD_VRM</ARBGB>
+     <MSGNR>014</MSGNR>
+     <TEXT>&amp; nolu siparişin &amp; nolu kalemine ait üretim siparişi mevcut!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZSD_VRM</ARBGB>
+     <MSGNR>015</MSGNR>
+     <TEXT>&amp; malz. &amp; partisi depo birimi mevcut virman yapılamaz.</TEXT>
+    </T100>
+   </T100>
+  </asx:values>
+ </asx:abap>
+</abapGit>

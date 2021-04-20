@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_MM_EXIT_SMOD_ZXMG0U02_0002</CLSNAME>
+    <LANGU>T</LANGU>
+    <DESCRIPT>YUR-523 - ZSD005 ve ZSD006 Tablolarına İç Piyasa İçin Otomat</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_MM_EXIT_SMOD_ZXMG0U02_0002</CLSNAME>
+     <CMPNAME>TY_PARAMS</CMPNAME>
+     <LANGU>T</LANGU>
+     <DESCRIPT>Control Structure for Testing the Table Name (Apart fr. SAA)</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

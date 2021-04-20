@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>Teslimat Function Group</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZYB_SD_G_VLTOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZYB_SD_G_VL</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>ZYB_SD_F_VL_DEL</FUNCNAME>
+     <SHORT_TEXT>Teslimat Kalemi Silme Fonksiyonu</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>I_LIKP</PARAMETER>
+       <TYP>LIKP</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_LIPS</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>LIPSVB</TYP>
+      </RSIMP>
+     </IMPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>I_LIKP</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>SD belgesi: Teslimat: Başlık verileri</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_LIPS</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>XLIPS/YLIPS için referans yapı</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

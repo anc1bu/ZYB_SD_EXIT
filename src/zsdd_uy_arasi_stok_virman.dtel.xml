@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>ZSDD_UY_ARASI_STOK_VIRMAN</ROLLNAME>
+    <DDLANGUAGE>T</DDLANGUAGE>
+    <DOMNAME>XFELD</DOMNAME>
+    <HEADLEN>47</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>20</SCRLEN2>
+    <SCRLEN3>40</SCRLEN3>
+    <DDTEXT>ÜY&apos; ler Arası Stok Virman Kontrolleri (YUR-842)</DDTEXT>
+    <REPTEXT>ÜY&apos; ler Arası Stok Virman Kontrolleri (YUR-842)</REPTEXT>
+    <SCRTEXT_S>Ü.A.S.V.K.</SCRTEXT_S>
+    <SCRTEXT_M>ÜY&apos;ler A.S.Vrm.Kntrl</SCRTEXT_M>
+    <SCRTEXT_L>ÜY&apos;ler Aras.Stk.Vrmn.Kntrlleri (YUR-842)</SCRTEXT_L>
+    <DTELMASTER>T</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,3 @@
+FUNCTION-POOL ZSDFG_EBAT_SEARCH_HELP.       "MESSAGE-ID ..
+
+* INCLUDE LZSDFG_EBAT_SEARCH_HELPD...        " Local class definition

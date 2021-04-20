@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_ENHO" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <TOOL>HOOK_IMPL</TOOL>
+   <SHORTTEXT>INCLUDE: MV45AFZZ FORM: USEREXIT_PRICING_PREPARE_TKOMP</SHORTTEXT>
+   <ORIGINAL_OBJECT>
+    <PGMID>R3TR</PGMID>
+    <ORG_OBJ_TYPE>PROG</ORG_OBJ_TYPE>
+    <ORG_OBJ_NAME>SAPMV45A</ORG_OBJ_NAME>
+    <ORG_MAIN_TYPE>PROG</ORG_MAIN_TYPE>
+    <ORG_MAIN_NAME>SAPMV45A</ORG_MAIN_NAME>
+    <PROGRAMNAME>SAPMV45A</PROGRAMNAME>
+   </ORIGINAL_OBJECT>
+   <ENHANCEMENTS>
+    <ENH_HOOK_IMPL>
+     <PROGRAMNAME>SAPMV45A</PROGRAMNAME>
+     <ENHMODE>S</ENHMODE>
+     <FULL_NAME>\PR:SAPMV45A\FO:USEREXIT_PRICING_PREPARE_TKOMP\SE:END\EI</FULL_NAME>
+     <SOURCE>
+      <item> INCLUDE zyb_sd_i_kampanya_kontrol.</item>
+      <item>&quot;---------&gt;&gt; Anıl CENGİZ 30.11.2020 10:40:56</item>
+      <item>&quot;YUR-773</item>
+      <item> &quot;Refactoring kapsamında aşağıdaki include kodları ZCL_SD_MV45AFZZ_FORM_TKOMP_001 taşındı.</item>
+      <item>* INCLUDE zyb_sd_i_prc_prepare_tkomp.</item>
+      <item>DATA: lo_msg  TYPE REF TO if_reca_message_list,</item>
+      <item>      lt_list TYPE bapirettab.</item>
+      <item>IF zcl_sd_zsdp_sipkptm=&gt;memory( ) IS INITIAL.</item>
+      <item>  TRY.</item>
+      <item>      NEW zcl_bc_exit_container( is_params = VALUE #( interface = &apos;ZIF_SD_MV45AFZZ_FORM_TKOMP&apos;</item>
+      <item>                                                      vars = VALUE #( ( name = &apos;TKOMP&apos; value = REF #( tkomp ) )</item>
+      <item>                                                                      ( name = &apos;TKOMK&apos; value = REF #( tkomk ) )</item>
+      <item>                                                                      ( name = &apos;T180&apos;  value = REF #( t180 ) )</item>
+      <item>                                                                      ( name = &apos;VBAP&apos;  value = REF #( vbap ) )</item>
+      <item>                                                                      ( name = &apos;VBAK&apos;  value = REF #( vbak ) ) ) ) )-&gt;execute( ).</item>
+      <item>    CATCH zcx_bc_exit_imp INTO DATA(lx_bc_exit_imp).</item>
+      <item>      CHECK: fcode NE &apos;LOES&apos;.</item>
+      <item>      lo_msg ?= lx_bc_exit_imp-&gt;messages.</item>
+      <item>      lo_msg-&gt;get_list_as_bapiret( IMPORTING et_list = lt_list ).</item>
+      <item>      zcl_sd_toolkit=&gt;hata_goster( VALUE #( FOR wa IN lt_list WHERE ( type = &apos;E&apos; ) ( CORRESPONDING #( wa ) ) ) ).</item>
+      <item>      zcl_sd_toolkit=&gt;bilgi_goster( VALUE #( FOR wa IN lt_list WHERE ( type = &apos;W&apos; OR type = &apos;I&apos; ) ( CORRESPONDING #( wa ) ) ) ).</item>
+      <item>  ENDTRY.</item>
+      <item>ENDIF.</item>
+      <item>&quot;---------&lt;&lt;</item>
+     </SOURCE>
+    </ENH_HOOK_IMPL>
+   </ENHANCEMENTS>
+   <SOTR>
+    <item>
+     <HEADER>
+      <CONCEPT>005056AF698E1EDB8CDBC20FBE8034C1</CONCEPT>
+      <CREA_LAN>T</CREA_LAN>
+      <TRALA_TYPE>1</TRALA_TYPE>
+      <OBJID_VEC>AAI=</OBJID_VEC>
+     </HEADER>
+     <ENTRIES>
+      <SOTR_TEXT>
+       <CONCEPT>005056AF698E1EDB8CDBC20FBE8034C1</CONCEPT>
+       <LANGU>T</LANGU>
+       <LFD_NUM>0001</LFD_NUM>
+       <FLAG_CNTXT>X</FLAG_CNTXT>
+       <STATUS>R</STATUS>
+       <LENGTH>081</LENGTH>
+       <TEXT>INCLUDE: MV45AFZZ FORM: USEREXIT_PRICING_PREPARE_TKOMP</TEXT>
+      </SOTR_TEXT>
+     </ENTRIES>
+    </item>
+   </SOTR>
+   <SOTR_USE>
+    <SOTR_USE>
+     <PGMID>R3TR</PGMID>
+     <OBJECT>ENHO</OBJECT>
+     <OBJ_NAME>ZENH_SD_MV45AFZZ_FORM_TKOMP</OBJ_NAME>
+     <CONCEPT>005056AF698E1EDB8CDBC20FBE8034C1</CONCEPT>
+     <LFD_NUM>0001</LFD_NUM>
+    </SOTR_USE>
+   </SOTR_USE>
+  </asx:values>
+ </asx:abap>
+</abapGit>
